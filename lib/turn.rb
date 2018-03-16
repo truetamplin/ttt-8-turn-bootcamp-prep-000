@@ -22,9 +22,7 @@ end
 def input_to_index(user_input)
   converted_input = user_input.to_i
   user_input = converted_input - 1
-  index = user_input
 end
-
 
 
 def valid_move?(board, index)
